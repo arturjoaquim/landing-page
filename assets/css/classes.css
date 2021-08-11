@@ -2,6 +2,14 @@
     min-height: 100vh;
 }
 
+.main-content {
+    max-width: 98rem;
+    margin: auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
 .blue-bg {
     background-image: url(../img/main-bg.svg);
 }
