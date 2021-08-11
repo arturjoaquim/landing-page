@@ -1,0 +1,9 @@
+:root {
+    --cor-primaria: #0A1128;
+    --cor-secundaria: crimson;
+    --cor-cinza-claro: #EEEEEE;
+    --cor-branco: #FFFFFF;
+    --fonte-destaque: 'Montserrat', sans-serif;
+    --fonte-padrao: 'Open Sans', sans-serif;
+    /* --gap: 3rem; */
+}

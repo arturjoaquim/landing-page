@@ -1,0 +1,7 @@
+.section {
+    min-height: 100vh;
+}
+
+.blue-bg {
+    background-image: url(../img/main-bg.svg);
+}

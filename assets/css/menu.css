@@ -1,0 +1,34 @@
+#header-page {
+    background-color: var(--cor-branco);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 4rem;
+    padding: 2rem 0;
+}
+
+#header-page a > h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+#header-page > h1:hover {
+    color: var(--cor-primaria);
+}
+
+.menu-page > ul {
+    display: flex;
+    list-style-type: none;
+    flex-flow: row nowrap;
+    gap: 3rem;
+}
+
+.menu-page a {
+    display: block;
+    font-size: 1.8rem;
+}
+
+.menu-page a:hover {
+    color: var(--cor-primaria);
+}
