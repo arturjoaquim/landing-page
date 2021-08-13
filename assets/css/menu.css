@@ -1,20 +1,24 @@
 #header-page {
     background-color: var(--cor-branco);
-    display: flex;
+    /* display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
-    align-items: center;
-    min-height: 4rem;
-    padding: 2rem 0;
+    justify-content: space-around; */
+    /* align-items: center; */
+    /* min-height: 4rem; */
+    /* padding: 2rem 0; */
 }
 
 #header-page a > h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     text-transform: uppercase;
+    color: var(--cor-primaria);
 }
 
-#header-page > h1:hover {
-    color: var(--cor-primaria);
+.header-content {
+    display: flex;
+    flex-flow: nowrap row;
+    justify-content: space-between;
+    
 }
 
 .menu-page > ul {

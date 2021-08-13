@@ -1,0 +1,11 @@
+.blue-bg .text-container {
+    color: white;
+}
+
+.white-bg .text-container {
+    color: black;
+}
+
+.white-bg .text-container > h1 {
+    color: var(--cor-primaria);
+}

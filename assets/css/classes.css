@@ -1,14 +1,25 @@
 .section {
     min-height: 100vh;
+    display: flex;
+    flex-flow: nowrap row;
+    align-items: center;
 }
 
 .main-content {
-    max-width: 98rem;
-    margin: auto;
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
+    max-width: 120rem;
+    margin: 0 auto;
+    /* min-height: 100vh; */
+    /* display: flex;
+    align-items: center; */
+    padding: 2rem 3rem;
 }
+
+.article-image {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 3rem;
+}
+
 
 .blue-bg {
     background-image: url(../img/main-bg.svg);
