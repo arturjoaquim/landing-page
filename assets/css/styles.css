@@ -9,3 +9,7 @@
 .white-bg .text-container > h1 {
     color: var(--cor-primaria);
 }
+
+.article-image > img {
+    width: 60%;
+}
