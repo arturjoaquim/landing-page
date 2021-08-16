@@ -3,7 +3,8 @@
     display: flex;
     flex-flow: nowrap row;
     align-items: center;
-    padding: 3.5rem 0;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 .main-content {
@@ -17,6 +18,11 @@
     display: flex;
     flex-flow: row nowrap;
     gap: 3rem;
+}
+
+.section-articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 }
 
 .blue-bg {
