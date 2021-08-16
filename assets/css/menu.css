@@ -18,7 +18,8 @@
     display: flex;
     flex-flow: nowrap row;
     justify-content: space-between;
-
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .menu-page > ul {
