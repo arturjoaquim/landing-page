@@ -10,11 +10,32 @@
     color: var(--cor-primaria);
 }
 
-.article-image > img {
+.article-with-image > img {
     width: 60%;
+}
+
+.section-articles > article{
+    flex: 1 1 30rem;
+}
+
+.section-articles .title-article {
+    align-items: flex-end;
+}
+
+.section-articles .big-number {
+    transform: rotate(5deg);
+    display: block; 
+    font-style: italic;
+    font-weight: bold;
+    font-size: 8rem;
+    
 }
 
 #intro .text-container {
     text-align: center;
     max-width: 60rem;
+}
+
+#top3 .section-articles {
+    margin-top: 10rem;
 }

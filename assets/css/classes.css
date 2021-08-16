@@ -11,7 +11,7 @@
     padding: 2rem 3rem;
 }
 
-.article-image {
+.in-row {
     display: flex;
     flex-flow: row nowrap;
     gap: 3rem;
