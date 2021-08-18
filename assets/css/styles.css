@@ -1,12 +1,4 @@
-.blue-bg .text-container {
-    color: white;
-}
-
-.white-bg .text-container {
-    color: black;
-}
-
-.white-bg .text-container > h1 {
+.white-bg h1 {
     color: var(--cor-primaria);
 }
 
@@ -43,4 +35,29 @@
 
 #top3 .section-articles {
     margin-top: 8rem;
+}
+
+#grid-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 37rem);
+    /* grid-template-rows: repeat(2, 40rem); */
+    gap: 3rem;
+    margin-top: 8rem;
+}
+
+#grid-gallery > span {
+    overflow: hidden;
+} 
+
+#grid-gallery > span img {
+    width: 100%;
+    /* position: relative; */
+    /* max-width: 37rem;
+    max-height: 40rem; */
+    overflow: hidden;
+    transition: all .4s ease-in-out;
+}
+
+#grid-gallery > span img:hover {
+    transform: rotate(5deg) scale(1.1);
 }

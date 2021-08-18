@@ -26,5 +26,6 @@
 }
 
 .blue-bg {
+    color: white;
     background-image: url(../img/main-bg.svg);
 }
