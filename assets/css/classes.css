@@ -1,3 +1,8 @@
+.blue-bg {
+    color: white;
+    background-image: url(../img/main-bg.svg);
+}
+
 .section {
     min-height: 100vh;
     display: flex;
@@ -23,11 +28,25 @@
 .section-articles {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    margin-top: 8rem;
 }
 
-.blue-bg {
-    color: white;
-    background-image: url(../img/main-bg.svg);
+.section-articles .title-article {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 3rem;
+    align-items: flex-end;
+}
+
+.section-articles .big-number {
+    display: block; 
+    position: relative;
+    top: 2rem;
+    transform: rotate(5deg);
+    font-family: var(--fonte-destaque);
+    font-style: italic;
+    /* font-weight: bold; */
+    font-size: 6.5rem;
 }
 
 .image-article {
