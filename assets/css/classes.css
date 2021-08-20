@@ -19,6 +19,12 @@
     padding-right: 3rem;
 }
 
+.small-content {
+    margin: 0 auto;
+    max-width: 60rem;
+    text-align: center;
+}
+
 .in-row {
     display: flex;
     flex-flow: row nowrap;
@@ -51,4 +57,11 @@
 
 .image-article {
     width: 60%;
+}
+
+.div-table {
+    width: 100%;
+    overflow: auto;
+    min-width: 60rem;
+    margin-top: 4rem;
 }
