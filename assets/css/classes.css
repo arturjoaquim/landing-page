@@ -21,30 +21,37 @@
 
 .small-content {
     margin: 0 auto;
-    max-width: 60rem;
+    max-width: 70rem;
     text-align: center;
 }
 
-.in-row {
+.article-image {
     display: flex;
     flex-flow: row nowrap;
     gap: 3rem;
 }
 
-.section-articles {
+/* .in-row {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 3rem;
+} */
+
+.larger-article {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     margin-top: 8rem;
+    gap: 3rem;
 }
 
-.section-articles .title-article {
+.larger-article .title-section {
     display: flex;
     flex-flow: row nowrap;
     gap: 3rem;
     align-items: flex-end;
 }
 
-.section-articles .big-number {
+.larger-article .big-number {
     display: block; 
     position: relative;
     top: 2rem;
@@ -55,13 +62,13 @@
     font-size: 6.5rem;
 }
 
-.image-article {
-    width: 60%;
-}
-
 .div-table {
     width: 100%;
     overflow: auto;
     min-width: 60rem;
     margin-top: 4rem;
+}
+
+.span-grid {
+    grid-column: 2 span;
 }

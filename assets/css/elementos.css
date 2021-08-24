@@ -40,7 +40,7 @@ p {
 a {
     color: black;
     text-decoration: none;
-    font-size: 1.6rem;
+    /* font-size: 1.6rem; */
 }
 
 td, th {
@@ -55,4 +55,35 @@ th {
     font-family: var(--fonte-destaque);
     /* font-size: 2.4rem; */
     font-weight: bold;
+}
+
+form {
+    font-size: 2.2rem;
+    margin-top: 3rem;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-style: italic;
+}
+
+input {
+    height: 6rem;
+}
+
+textarea {
+    height: 15rem;
+}
+
+input, textarea {
+    margin-top: 1rem;
+    width: 100%;
+    display: block;
+    padding: 1rem;
+    font-size: 2.4rem;
+    font-weight: bold;
+    color: var(--cor-primaria);
 }

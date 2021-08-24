@@ -17,6 +17,10 @@
     margin: 3rem 0;
 } */
 
+.article-image > img {
+    width: 60%;
+}
+
 #grid-gallery {
     display: grid;
     grid-template-columns: repeat(3, 37rem);
@@ -42,7 +46,7 @@
     transform: rotate(3deg) scale(1.2);
 }
 
-.div-table > legend {
+.div-table caption {
     font-size: 2rem;
     font-style: italic;
     text-align: left;
@@ -55,3 +59,14 @@
     font-size: 2.2rem;
 }
 
+#content-form-contato {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    /* grid-template-rows: 10rem 10rem 10rem; */
+    /* grid-template-areas: 
+    "first-name" "last-name"
+    "email email"
+    "textarea textarea"; */
+}
