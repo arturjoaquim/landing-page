@@ -34,8 +34,10 @@
 .menu-page a {
     display: block;
     font-size: 1.8rem;
+    color: black;
 }
 
 .menu-page a:hover {
     color: var(--cor-primaria);
+    text-decoration: none;
 }
