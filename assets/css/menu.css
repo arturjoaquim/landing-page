@@ -1,7 +1,44 @@
+/*MENU MOBILE*/
+
+#menu-bt-mobile {
+    display: none;
+}
+
+label[for="menu-bt-mobile"] {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    position: fixed;
+    width: 4rem;
+    height: 4rem;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    background-color: var(--cor-primaria);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    /* padding: 0.5rem; */
+}
+
+label[for="menu-bt-mobile"]::after {
+    content: "\2630";
+    font-size: 3rem;
+}
+
+#menu-bt-mobile:checked + label[for="menu-bt-mobile"]::after {
+    content: "\274C";
+    font-size: 2.2rem;
+}
+
+/*MENU DESKTOP*/
+
+
 #header-page {
     background-color: var(--cor-branco);
     position: fixed;
-    z-index: 100;
+    z-index: 98;
     width: 100%;
     top: 0;
     left: 0;

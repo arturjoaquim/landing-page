@@ -78,6 +78,45 @@
         font-size: 2.8rem;
     }
 
+    /*MENU*/
+
+    #header-page {
+        position: absolute;
+    }
+
+    .menu-page {
+        margin-top: -100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: block;
+        z-index: 99;
+        height: 0;
+        width: 100vw;
+        background-color: white;
+        transition: all 300ms ease;
+    }
+
+    .menu-page ul {
+        flex-flow: column nowrap;
+        text-align: center;
+        justify-content: center;
+        height: 100%;
+    }
+    
+    #menu-bt-mobile:checked + label + .menu-page {
+        margin-top: 0;
+        height: 100vh;
+        
+    }
+
+    /*MAIN*/
+
+    .main-content, .small-content {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
     .article-image > img {
         width: 100%;
     }
