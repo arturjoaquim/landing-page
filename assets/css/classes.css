@@ -5,9 +5,9 @@
 
 .section {
     min-height: 100vh;
-    display: flex;
+    /* display: flex;
     flex-flow: nowrap row;
-    align-items: center;
+    align-items: center; */
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
@@ -23,6 +23,8 @@
     margin: 0 auto;
     max-width: 70rem;
     text-align: center;
+    padding-left: 3rem;
+    padding-right: 3rem;
 }
 
 .article-image {
@@ -39,7 +41,7 @@
 
 .larger-article {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 8rem;
     gap: 3rem;
 }
@@ -63,9 +65,8 @@
 }
 
 .div-table {
-    width: 100%;
-    overflow: auto;
-    min-width: 60rem;
+    overflow-x: auto;
+    max-width: 100vw;
     margin-top: 4rem;
 }
 
@@ -82,7 +83,6 @@
     background-color: white;
     color: var(--cor-primaria);
 }
-
 
 .footer-information {
     padding: 5rem 0;
