@@ -43,6 +43,30 @@
     grid-column: 2 span;
 }
 
+#back-to-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-primaria);
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    opacity: 0.5;
+    color: white;
+    font-size: 5rem;
+    font-weight: bolder;
+    transition: all .25s ease;
+}
+
+#back-to-top:hover {
+    opacity: 1;
+}
+
 
 @media (max-width: 1199.98px) {
     
@@ -100,10 +124,15 @@
     .menu-page ul {
         flex-flow: column nowrap;
         text-align: center;
+        align-items: center;
         justify-content: center;
         height: 100%;
     }
     
+    label[for="menu-bt-mobile"] {
+        display: flex;
+    }
+
     #menu-bt-mobile:checked + label + .menu-page {
         margin-top: 0;
         height: 100vh;
